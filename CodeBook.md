@@ -10,13 +10,15 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 The run_analysis does the following:
 
-I. Merges the training and the test sets to create one data set and stores it into mergedSets using content of train and test folders from the data above. Does the same with Labels and Subjects.
+I. Merges the training and the test sets to create one data set and stores it into mergedSets using content of train and test folders from the data above. Does the same with Labels and Subjects. 
+
 II. Extracts only the measurements on the mean and standard deviation for each measurement.
 
 After, the run_analysis.R script performs the following steps to clean the data:
 
-III. Uses descriptive activity names to name the activities in the data set token from the activity_labels.txt
-IV. Appropriately labels the data set with descriptive variable names token from the features.txt
+III. Uses descriptive activity names to name the activities in the data set token from the activity_labels.txt.
+
+IV. Appropriately labels the data set with descriptive variable names token from the features.txt.
 
 Then:
 
